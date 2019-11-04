@@ -1,0 +1,1 @@
+# ms-store-checker
