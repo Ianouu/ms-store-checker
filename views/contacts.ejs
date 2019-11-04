@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="<%- lang %>">
+
+<% include ./partials/head %>
+
+
+  <body>
+
+    <!-- Navigation -->
+    <% include ./partials/navbar %>
+
+
+    <!-- Page Content -->
+    <div class="container pt-5">
+
+      <div class="col-sm-4">
+        <h1 class="mt-4"><%= content_text.contactTitle %></h1>
+        <p><%= content_text.contact1 %></p>
+        <address>
+          <a href="mailto:contact@micosoft-checker.com">contact@micosoft-checker.com</a>
+        </address>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <% include ./partials/footer %>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,319 @@
+{
+    "langs" : [
+        {
+            "lang" : "en-WW"
+        },
+        {
+            "lang" : "fr-fr"
+        },
+        {
+            "lang" : "es-es"
+        },
+        {
+            "lang" : "de-de"
+        },
+        {
+            "lang" : "bn-BD"
+        },
+        {
+            "lang" : "be-BY"
+        },
+        {
+            "lang" : "nl-BE"
+        },
+        {
+            "lang" : "bg-BG"
+        },
+        {
+            "lang" : "cs-CZ"
+        },
+        {
+            "lang" : "en-CY"
+        },
+        {
+            "lang" : "da-DK"
+        },
+        {
+            "lang" : "en-GI"
+        },
+        {
+            "lang" : "en-IE"
+        },
+        {
+            "lang" : "it-IT"
+        },
+        {
+            "lang" : "sq-XK"
+        },
+        {
+            "lang" : "lv-LV"
+        },
+        {
+            "lang" : "de-LI"
+        },
+        {
+            "lang" : "lt-LT"
+        },
+        {
+            "lang" : "lb-LU"
+        },
+        {
+            "lang" : "mk-MK"
+        },
+        {
+            "lang" : "mt-MT"
+        },
+        {
+            "lang" : "en-MH"
+        },
+        {
+            "lang" : "fr-MC"
+        },
+        {
+            "lang" : "nl-NL"
+        },
+        {
+            "lang" : "pl-PL"
+        },
+        {
+            "lang" : "pt-PT"
+        },
+        {
+            "lang" : "ro-RO"
+        },
+        {
+            "lang" : "ru-RU"
+        },
+        {
+            "lang" : "sl-SL"
+        },
+        {
+            "lang" : "sl-SI"
+        },
+        {
+            "lang" : "fr-CH"
+        },
+        {
+            "lang" : "uk-UA"
+        }
+        
+    ],
+    "xbox" : [
+        {
+            "lang" : "fr-fr"
+        },
+        {
+            "lang" : "es-es"
+        },
+        {
+            "lang" : "de-de"
+        },
+        {
+            "lang" : "nl-BE"
+        },
+        {
+            "lang" : "cs-CZ"
+        },
+        {
+            "lang" : "da-DK"
+        },
+        {
+            "lang" : "en-HK"
+        },
+        {
+            "lang" : "en-IE"
+        },
+        {
+            "lang" : "it-IT"
+        },
+        {
+            "lang" : "mk-MK"
+        },
+        {
+            "lang" : "nl-NL"
+        },
+        {
+            "lang" : "pl-PL"
+        },
+        {
+            "lang" : "pt-PT"
+        }
+    ],
+    "deals" : [
+        {
+            "lang" : "fr-fr"
+        },
+        {
+            "lang" : "es-es"
+        },
+        {
+            "lang" : "de-de"
+        },
+        {
+            "lang" : "nl-BE"
+        },
+        {
+            "lang" : "cs-CZ"
+        },
+        {
+            "lang" : "da-DK"
+        },
+        {
+            "lang" : "en-HK"
+        },
+        {
+            "lang" : "en-IE"
+        },
+        {
+            "lang" : "it-IT"
+        },
+        {
+            "lang" : "mk-MK"
+        },
+        {
+            "lang" : "nl-NL"
+        },
+        {
+            "lang" : "pl-PL"
+        },
+        {
+            "lang" : "pt-PT"
+        }
+    ],
+
+    "accessories" : [
+        
+        {
+            "lang" : "fr-fr"
+        },
+        {
+            "lang" : "es-es"
+        },
+        {
+            "lang" : "de-de"
+        },
+        {
+            "lang" : "nl-BE"
+        },
+        {
+            "lang" : "cs-CZ"
+        },
+        {
+            "lang" : "da-DK"
+        },
+        {
+            "lang" : "en-IE"
+        },
+        {
+            "lang" : "it-IT"
+        },
+        {
+            "lang" : "nl-NL"
+        },
+        {
+            "lang" : "pl-PL"
+        },
+        {
+            "lang" : "pt-PT"
+        },
+        {
+            "lang" : "fr-CH"
+        }
+        
+    ],
+    "surface" : [
+        {
+            "lang" : "en-WW"
+        },
+        {
+            "lang" : "fr-fr"
+        },
+        {
+            "lang" : "es-es"
+        },
+        {
+            "lang" : "de-de"
+        },
+        {
+            "lang" : "bn-BD"
+        },
+        {
+            "lang" : "be-BY"
+        },
+        {
+            "lang" : "nl-BE"
+        },
+        {
+            "lang" : "bg-BG"
+        },
+        {
+            "lang" : "cs-CZ"
+        },
+        {
+            "lang" : "en-CY"
+        },
+        {
+            "lang" : "da-DK"
+        },
+        {
+            "lang" : "en-GI"
+        },
+        {
+            "lang" : "en-IE"
+        },
+        {
+            "lang" : "it-IT"
+        },
+        {
+            "lang" : "lv-LV"
+        },
+        {
+            "lang" : "de-LI"
+        },
+        {
+            "lang" : "lt-LT"
+        },
+        {
+            "lang" : "lb-LU"
+        },
+        {
+            "lang" : "mk-MK"
+        },
+        {
+            "lang" : "mt-MT"
+        },
+        {
+            "lang" : "en-MH"
+        },
+        {
+            "lang" : "fr-MC"
+        },
+        {
+            "lang" : "nl-NL"
+        },
+        {
+            "lang" : "pl-PL"
+        },
+        {
+            "lang" : "pt-PT"
+        },
+        {
+            "lang" : "ro-RO"
+        },
+        {
+            "lang" : "ru-RU"
+        },
+        {
+            "lang" : "sl-SL"
+        },
+        {
+            "lang" : "sl-SI"
+        },
+        {
+            "lang" : "fr-CH"
+        },
+        {
+            "lang" : "uk-UA"
+        }   
+    ]
+}

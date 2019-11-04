@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="<%- lang %>">
+
+<% include ./partials/head %>
+
+
+  <body>
+
+    <!-- Navigation -->
+    <% include ./partials/navbar %>
+
+
+    <!-- Page Content -->
+    <div class="container w-100 pt-5">
+    <h1 class="mt-4">Blog</h1>
+        <div class="row">       
+            <div class="mt-2 col-sm-8">
+                <div class="w-100">
+                    <ul>
+                    <!-- Article-->
+                        <li>
+                            <h4>v1.0.2</h4>
+                            <small>5, august, 2018</small>
+                            <ul>
+                                <li>Add image leverage caching.</li>
+                                <li>Fix responsive issues.</li>
+                            </ul>
+                        </li>
+                        <!-- Article-->
+                        <li>
+                            <h4>v1.0.1</h4>
+                            <small>3, august, 2018</small>
+                            <ul>
+                                <li>Fix some un-traducted text.</li>
+                                <li>Add blog page.</li>
+                                <li>Add Polish language.</li>
+                            </ul>
+                        </li>
+                        <!-- Article-->
+
+                    </ul>                    
+                </div>
+            </div>
+            <div class="mt-2 col-sm-4 float-right">
+                <h4>Support me</h4>
+                <small>With a coffe :) You can do it with Bitcoin or Ethereum.</small>
+                <div id="cd601"></div>
+                <!-- -->
+                <script>
+                !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+                    Fr.loadCD("cd601", {
+                    coin: "bitcoin",
+                    address: "1LngsHC1XEiW5hzGVCScBRWpUkQnAQEAta",
+                    buttonClass: "",
+                    dialogClass: "",
+                    });
+                });
+                </script>
+                   
+                <!-- -->  
+                <div id="cd244"></div>
+                <script>
+                !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="//lab.subinsb.com/projects/francium/cryptodonate/widget.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+                    Fr.loadCD("cd244", {
+                    coin: "ethereum",
+                    address: "0xEC8433F263492a53580ADb6b1d8D0a88ced8f550",
+                    buttonClass: "",
+                    dialogClass: "",
+                    });
+                });
+                </script>
+            </div>       
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <% include ./partials/footer %>
+
+
+
+  </body>
+
+</html>

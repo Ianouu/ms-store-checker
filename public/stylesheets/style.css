@@ -1,0 +1,541 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+body {
+  font-family: 'Ubuntu', 'Calibri', 'Bahnschrift', 'sans-serif';
+  height: 100%;
+
+}
+
+.container-search {
+  background-color: #FFC107;
+  text-align: center;
+}
+
+#searcher {
+  position: fixed !important;
+}
+
+.img-faq {
+  width: 75%;
+}
+.link-card {
+  color: unset;
+}
+.link-card :hover {
+  text-decoration: none;
+  text-transform: none;
+}
+.row-inline {
+  display: inline-block;
+}
+#langage-select option{
+  background-color: #FFECB3;
+  font-size: x-small;
+}
+#langage-select{
+  background-color: #FFECB3;
+}
+
+.card {
+  display:inline-block !important;
+  border-top: 0px solid white;
+  border-left: 0px solid white;
+  border-right: 0px solid white;
+  width: 17rem;
+  height: 28rem;
+
+}
+
+
+.hvr-underline-reveal:before { 
+  background: #FFC107 !important;
+}
+
+/*  */
+
+.navbar-collapse {
+  float: left;
+  width: 100%;
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+      margin-top: -50px;
+  }
+}
+
+#search-box {
+  width: 230px;
+}
+.form-control:focus {
+  border-color: #757575;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(74, 74, 75, 0.6);
+}
+
+.form-control:focus {
+  border-color: #757575;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(74, 74, 75, 0.6);
+}
+
+.list-inline {
+  display: flex;
+}
+
+.list-inline li {
+  flex: 1;
+
+  text-align: center;
+}
+/*  */
+.nav-item{
+  font-size: large !important;
+}
+.nav-ite a:hover{
+  color: #FFC107 !important;
+}
+
+.nav-pills {
+  font-size: x-large !important;
+  color: #FFA000;
+
+}
+
+.major-price {
+  font-size: initial;
+}
+
+#span-price {
+  font-size: smaller;
+}
+
+.span-link {
+  background-color: #F1F1F1 !important;
+}
+
+/* .nav-link-nav {
+  color: rgba(255,255,255) !important;
+}
+.nav-link-nav:hover {
+  color: rgba(255,255,255,.5) !important;
+} */
+
+.badge-pill{
+  background-color: #FFA000;
+  color: #f8f9fa;
+}
+
+.nav-pills:hover {
+  color: #f8f9fa;
+}
+
+.product-title p{
+  font-size: initial;
+  color: #4A4A4B;
+
+}
+.product-title{
+}
+
+.sub-price {
+  font-size: small;
+  color: #4F4F4F;
+}
+#nav-tabContent {
+  border : 0px solid #ddd;
+}
+
+.fg-primary1 {
+  color: #4A4A4B;
+}
+.bg-primary1 {
+  background-color: #F1F1F1 !important;
+}
+
+.bg-primary2 {
+  background-color: white !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: #263238;
+}
+
+.btn-primary1 {
+  background-color: #8BC34A;
+  color: white;
+}
+.btn-primary1:hover {
+  background-color: #689f38;
+  color: white;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .975rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: unset; 
+}
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/*
+Make bootstrap-select work with bootstrap 4 see:
+https://github.com/silviomoreto/bootstrap-select/issues/1135
+*/
+.dropdown-toggle.btn-default {
+  color: #292b2c;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.bootstrap-select.show>.dropdown-menu>.dropdown-menu {
+  display: block;
+}
+
+.bootstrap-select > .dropdown-menu > .dropdown-menu li.hidden{
+  display:none;
+}
+
+.bootstrap-select > .dropdown-menu > .dropdown-menu li a{
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #292b2c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
+
+.dropdown-menu > li.active > a {
+  color: #fff !important;
+  background-color: #337ab7 !important;
+}
+
+.bootstrap-select .check-mark::after {
+  content: "✓";
+}
+
+.bootstrap-select button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* Make filled out selects be the same size as empty selects */
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  display: inline !important;
+}
+/* Style the auto complete */
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2000 !important;
+  float: left;
+  display: none;
+  min-width: 160px;
+  _width: 160px;
+  padding: 4px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+
+  .ui-menu-item > a.ui-corner-all {
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #555555;
+    white-space: nowrap;
+
+    &.ui-state-hover, &.ui-state-active {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #0088cc;
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      background-image: none;
+    }
+  }
+}
+.card-carousel-item {
+  width: 11rem;
+  height: 25rem;
+  margin-left: 20%;
+}
+#deals-carrousel {
+  width: 100%;
+}
+
+.sidebar-nav-fixed a{
+  color: #757575;
+}
+
+.sidebar-nav-fixed a:hover{
+  color: #FFA000;
+}
+#faq-sum{
+  border-top: 0px solid white;
+  border-left: 1px solid #EEEEEE;
+  border-right: 0px solid white;
+  border-bottom: 0px solid white;
+
+}
+
+#div-faq-sum {
+  position: fixed;
+  top:140px;
+  width: 18%;
+}
+
+#div-content-faq {
+  margin-left: 22%;
+}
+
+.wrap {
+  height: 100%;
+  overflow: auto;
+}
+
+/**cooki banner**/
+#cookie-notice {
+  display: none;
+  position: fixed;
+  min-width: 100%;
+  height: auto;
+  z-index: 100000;
+  font-size: 13px;
+  line-height: 20px;
+  left: 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  visibility: visible;
+  display: block;
+}
+
+.cookie-notice-container {
+  padding: 10px;
+  text-align: center;
+}
+
+.search-row {
+  width: 50%;
+}
+
+.td-search-description {
+  width: 10%;
+}
+
+.description-max {
+  max-width: 35em;
+}
+
+.no-display {
+  display: none;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .card-block {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .card-block {
+    width: 9rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  .card-block{
+    width: 12rem !important;
+    margin-left: 60% !important;
+  }
+
+  
+}
+/* #search-box[type=text] {
+  width: 15%; 
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#search-box[type=text]:focus {
+  width: 100%;
+} */
+
+/**
+On utilise le plugin https://goodies.pixabay.com/jquery/auto-complete/demo.html
+ON a clef valeur, on récupère la clé, 
+-> on renvoie vers une nouvelle page avec la clef id microsoft
+
+Il faut modifier le json array pour ca.
+document.getElementById("myText").value = "Johnny Bravo";
+$( ).value
+
+**/
+
+.img-search {
+  height: 40%;
+}
+
+.img-card {
+  border-top-left-radius: calc(.65rem - 1px);
+  border-top-right-radius: calc(.65rem - 1px);
+}
+
+.card-content-border {
+  border-left: 1px solid #F0F0F0;
+  border-right: 1px solid #F0F0F0;
+}

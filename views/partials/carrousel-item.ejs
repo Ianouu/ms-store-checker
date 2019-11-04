@@ -1,0 +1,19 @@
+
+<div class="carousel-item ">
+    <div class="card  card-carousel-item card-block justify-content-end hvr-underline-reveal" >
+
+        <div class="align-bottom product-title w-100"> 
+            <a class="link-card" href="/check/<%= article.BASE %>/<%= article.id %>">
+                <img class="card-img-top" src="<%= article.img_dest %>">
+                <div class="card-body align-text-bottom">
+                    <p class="text-center"><%- article.name[lang.substring(0,2)] ? article.name[lang.substring(0,2)] : article.name[Object.keys(article.name)[0]] %></p>
+
+                    <p class="card-text card-subtitle text-muted text-truncate"><small><%- article.description[lang.substring(0,2)] ? article.description[lang.substring(0,2)] : article.description[Object.keys(article.description)[0]] %></small></p>
+                    <p class="card-text mx-auto text-center fixed-bottom mb-3">
+                        <span id="span-price" class="badge badge-pill badge-warning hvr-grow"><%= df.getStrByUsdRegion(article.usd_price, lang ) %></span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>  
+</div>

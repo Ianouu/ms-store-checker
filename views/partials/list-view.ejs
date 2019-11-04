@@ -1,0 +1,33 @@
+<% if ( isArticleMatching(article, lang, text) ) { %>
+    <tr class="search-row ">
+    
+
+        <td><a class="link-card" href="/check/<%= article.BASE %>/<%= article.id %>"><img class="responsive img-search" src=".<%= article.img_dest %>"/></a></td>
+
+        <td >  
+        <a class="link-card" href="/check/<%= article.BASE %>/<%= article.id %>">
+            <div class="text-truncate">
+                <p class="text-center"><%-article.name && article.name[lang.substring(0,2)] ? article.name[lang.substring(0,2)] : article.name[Object.keys(article.name)[0]] %></p>
+            </div>
+            <div class="text-truncate description-max">
+                <small><p class="text-justify"><%- article.description && article.description[lang.substring(0,2)] ? article.description[lang.substring(0,2)] : article.description[Object.keys(article.description)[0]] %>
+                </small></p>
+            </div>
+        </a>
+        </td>
+
+        <td>
+        <a class="link-card" href="/check/<%= article.BASE %>/<%= article.id %>">
+            <p><span  class="badge badge-pill badge-warning major-price"><%= df.getStrByUsdRegion(article.usd_price, lang ) %></span>
+        </a>    
+        </td>
+        <td>
+            <a class="text-md-center hvr-pulse" href="/check/<%= article.BASE %>/<%= article.id %>">
+                <span class="badge badge-pill span-link">          
+                <img src="/images/arrow_go.svg"  >          
+                </span>
+            </a>
+        </td>
+        </a>
+    </tr>
+<% } %>

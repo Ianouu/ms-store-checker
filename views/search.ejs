@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="<%- lang %>">
+
+  
+  <% include ./partials/head %>
+
+
+  <body>
+
+
+  <% include ./partials/navbar %>
+
+  <% if (!isDBLocked) { %>
+    <!-- Page Content -->        
+    <div class="container">
+        <div class="row ">
+            <p></p>
+        </div>
+
+        <div class="container">
+            <h1 class="m-3 mb-5 mt-5"><%= content_text.title %></h1>
+                <p><%- content_text.message %></p>
+                <table class="table sortable mt-2 table-hover">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th ></th> 
+                            <th ><%- content_text.tabHeader.price %></th>
+                            <th ><%- content_text.tabHeader.link %></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <!-- card toutes les xboxs -->
+                    <% for(var i=0; i<products.length; i++) { %>
+                        <% if (products[i].id !== "array_names") { %>
+                            <%- include('./partials/list-view', {lang: lang, article : products[i]}); %>
+                        <% } %>
+                    <% } %>
+                    </tbody>
+                </table>
+        </div>
+
+  <% } else { %>
+      <div class="container pt-5">
+        <h2><%- db_locked %></h2>
+        <h4><%- db_locked2 %></h4>
+      </div>
+  <% } %>
+  
+    </div>
+
+
+    <!-- Footer -->
+    <% include ./partials/footer %>
+
+
+
+
+
+  </body>
+
+</html>

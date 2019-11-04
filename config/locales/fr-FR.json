@@ -1,0 +1,49 @@
+{
+	"hello": "salut JAVA ?",
+
+	"navbarXbox" : "Xbox",
+	"navbarAccessory" : "Accessoires",
+	"navbarSurface" : "Surface",
+	"navbarDeals" : "Deals",
+	"navbarContact" : "Contact",
+	"navbarFonction" : "Comment ça marche ?",
+	"navbarSearch" : "Recherche",
+
+	"mainPage" : "Bienvenue sur Microsoft Store Checker ! Ici vous pouvez checker les différents prix Européens disponible sur le store Microsoft. Pour comprendre comment cela fonctionne allez dans la rubrique <a href='/faq'>ici </a>.",
+	"mainPage2" : "Les produits ont été référencées à partir du site <a href=\"www.microsoft.com\">Microsoft</a>, les prix et produits peuvent varier sur le store <a href=\"www.xbox.com\">Xbox</a>.",
+	
+	"db_locked" : "Nous sommes en cours de maintenance.",
+	"db_locked2": "Nous rafraichissons les prix. Vous pouvez revenir dans 15 minutes.",
+
+	"faq1" : "Microsoft Store Checker répertorie les prix du store Microsoft en fonction des pays Européens.</br> Cela va vous permettre de profiter des produits du store officiel au prix le moins chères ! Dans cette rubrique nous allons vous expliquer comment acheter dans un autre pays.</br></br> C'est très simple, <strong>rien ne change d'une commande normale !</strong>",
+	"faqTitle" : "Comment ça marche ?",
+	"faqTitle2" : "Sélectionnez votre produit",
+	"faqTitle3" : "Ajoutez votre produit au panier",
+	"faqTitle4" : "Validez votre panier",
+	"faqTitle5" : "Finalisez votre panier",
+	"faqTitle6" : "Logez vous",
+	"faqTitle7" : "Finalisez votre achat !",
+	"faqTitle8" : "C'est fini !",
+
+
+	"faq2" : "Trouvez un produit au meilleur prix et cliquez sur le liens du pays.",
+	"faq3" : "Lorsque vous arrivez sur cette fenêtre choisissez la langue du produit trouvez sur le site. Dans mon cas je choisis Espagnole car le prix était moins élevée en Espagne.",
+	"faq4" : "Ajoutez votre produit dans votre panier, <strong>comme une commande classique</strong>.",
+	"faq5" : "Une fois dans votre panier, vous pouvez le valider.",
+	"faq6" : "<strong> Sélectionnez votre pays de facturation ! </strong> Il faut indiquer le pays où vous payez.",
+	"faq7" : "Il faut ensuite se connecter avec son compte Microsoft. Vous pouvez garder votre compte habituel.",
+	"faq8" : "Nous sommes presque à la fin. Sélectionnez votre adresse, votre moyen de paiement. Si vous pouvez, choissisez Paypal. Et finalement, validez votre achat en cliquant sur le 3ème bouton !",
+	"faq9" : "Vous venez d'acheter votre produit sur le store Microsoft étranger ! Vous devez maintenant attendre que votre produit arrive.",
+
+	"contactTitle" : "Contact",
+	"contact1" : "Si vous avez des idées ou des bugs à nous remonter n'hésitez pas à nous contacter :). Vous pouvez aussi nous proposer des traductions.",
+	"cookieBanner" : "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies (Google Analytics et Google AdSense) pour vous proposer des publicités ciblées adaptés à vos centres d’intérêts et réaliser des statistiques de visites.",
+	"footerDesc": "Cherchez les meilleurs prix des produits officiels du store Microsoft.",
+	"links": "Liens utiles",
+	"privacy": "Privacy",
+	"article": "Articles",
+	"price" : "Prix",
+	"country" : "Pays",
+	"link" : "Lien",
+	"name" : "Nom"	
+}

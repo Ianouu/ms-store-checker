@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="<%- lang %>">
+
+<% include ./partials/head %>
+
+
+  <body>
+
+    <!-- Navigation -->
+    <% include ./partials/navbar %>
+    
+  <% if (!isDBLocked) { %>
+    
+    <div class="container p-5">
+
+        <!-- Page Content -->
+        <%if (allObjects.length > 0) { %>
+
+        <div class="row">
+        
+          <img src="../../../db/img/<%= allObjects[0].id_microsoft %>.png" class="rounded float-left w-25 h-25" >
+          <div class="col-sm-8">
+            <h2 class="mt-4"><%- article.name[lang.substring(0,2)] ? article.name[lang.substring(0,2)] : article.name[Object.keys(article.name)[0]] %></h2>
+            <p><%- article.description[lang.substring(0,2)] ?  article.description[lang.substring(0,2)] :  article.description[Object.keys(article.description)[0]]%></p>
+            <p><span  class="badge badge-pill badge-warning major-price"><%= df.getStrByUsdRegion(article.usd_price, lang ) %></span></p>
+          </div>
+        </div>
+        <table class="table sortable mt-2 table-hover" id="price-comparaison">
+        <thead >
+          <tr>
+            <th class="text-md-center"><%- content_text.tabHeader.country %></th>
+            <th><%- content_text.tabHeader.price %></th>
+            <th><%- content_text.tabHeader.link %></th>
+          </tr>
+        </thead>
+        <tbody>
+
+        <% for(var i=0; i<allObjects.length; i++) { %>
+        <tr>
+        <td><p class="text-md-center"><%= df.getCountryName(allObjects[i].lang) %></p></td>
+          <td>
+            <p><%= df.getStrByUsdRegion(allObjects[i].usd_price, lang ) %>
+            <small>&ensp;(<%= df.getStrByValueDevise(allObjects[i].price, allObjects[i].devise.name ) %>)</small></p>
+          </td>
+          <td>
+            <a class="text-md-center hvr-pulse" target="_blank" href="https://www.microsoft.com<%= allObjects[i].url %>">
+              <span class="badge badge-pill span-link">          
+                <img src="/images/arrow_go.svg"  >          
+             </span>
+            </a>
+          </td>
+        </tr>
+        <% } %>
+      <% } %>
+      
+
+        </tbody>
+      </table>
+    </div>
+    <!-- /.container -->
+    <% } else { %>
+    <div class="container pt-5">
+      <h2><%- db_locked %></h2>
+      <h4><%- db_locked2 %></h4>
+    </div>
+    <% } %>
+    <!-- Footer -->
+    <% include ./partials/footer %>
+
+
+  </body>
+
+</html>

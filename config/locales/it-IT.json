@@ -1,0 +1,52 @@
+{
+	"hello": "salut JAVA ?",
+
+	"navbarXbox" : "Xbox",
+	"navbarAccessory" : "Accessori",
+	"navbarSurface" : "Surface",
+	"navbarDeals" : "Deals",
+	"navbarContact" : "Contatto",
+	"navbarFonction" : "Come funziona?",
+	"navbarSearch" : "Ricercare",
+
+	"mainPage" : "Benvenuto in Microsoft Store Checker! Qui puoi controllare i diversi prezzi europei disponibili sul negozio Microsoft. Per capire come funziona vai alla sezione <a href='/faq'>qua </a>.",
+	"mainPage2" : "I prodotti sono stati referenziati da <a href=\"www.microsoft.com\"> Microsoft </a>, i prezzi e i prodotti possono variare a seconda del negozio <a href = \"www.xbox.com\"> Xbox </a>.",
+	
+	"db_locked" : "Stiamo subendo manutenzione.",
+	"db_locked2": "Stiamo rinfrescando i prezzi. Puoi tornare tra 15 minuti.",
+
+	"faq1" : "Microsoft Store Checker elenca i prezzi di Microsoft Store per i paesi europei.</br> Questo ti permetterà di goderti i prodotti del negozio ufficiale al prezzo più basso! In questa sezione spiegheremo come acquistare in un altro paese.</br></br> È molto semplice, <strong>nulla cambia da un ordine normale !</strong>",
+	"faqTitle" : "Come funziona?",
+	"faqTitle2" : "Seleziona il tuo prodotto",
+	"faqTitle3" : "Aggiungi il tuo prodotto al carrello",
+	"faqTitle4" : "Valida il tuo carrello",
+	"faqTitle5" : "Finalizza il tuo carrello",
+	"faqTitle6" : "Rimani qui",
+	"faqTitle7" : "Completa il tuo acquisto!",
+	"faqTitle8" : "È finito!",
+
+
+	"faq2" : "Trova un prodotto al miglior prezzo e clicca sui link del paese.",
+	"faq3" : "Quando arrivi su questa finestra, scegli la lingua del prodotto trovato sul sito. Nel mio caso scelgo lo spagnolo perché il prezzo era più basso in Spagna.",
+	"faq4" : "Aggiungi il tuo prodotto al carrello, <strong> come un ordine classico </strong>.",
+	"faq5" : "Una volta nel tuo carrello, puoi convalidarlo.",
+	"faq6" : "<strong> Seleziona il tuo paese di fatturazione! </strong> Indicare il paese in cui si paga.",
+	"faq7" : "Devi quindi accedere con il tuo account Microsoft. Puoi mantenere il tuo account abituale.",
+	"faq8" : "Siamo quasi alla fine. Seleziona il tuo indirizzo, il tuo metodo di pagamento. Se puoi, scegli Paypal. Infine, convalida il tuo acquisto facendo clic sul terzo pulsante!",
+	"faq9" : "Hai appena acquistato il tuo prodotto da Microsoft Foreign Store! Ora devi aspettare che arrivi il tuo prodotto.",
+
+	"contactTitle" : "Contatto",
+	"contact1" : "Se hai qualche idea o bug da farti, non esitare a contattarci :). Puoi anche offrirci traduzioni.",
+	"contact2" : "",
+	"cookieBanner" : "Questo sito utilizza i cookie di Google per fornire i propri servizi, personalizzare gli annunci e analizzare il traffico. Le informazioni sul tuo utilizzo del sito sono condivise con Google. Accettando questo sito, si riceve l'uso dei cookie.",
+
+	"price" : "Prezzo",
+	"country" : "Paese",
+	"link" : "Collegamento",
+	"footerDesc": "Cerca l'hardware ufficiale Microsoft ai prezzi più economici.",
+	"links": "Link utili",
+	"privacy": "Privacy",
+	"article": "Articoli",
+	"name" : "Nome"
+	
+}

@@ -1,0 +1,5 @@
+cron:
+- description: daily refresh job
+  url: /refreshDB
+  schedule: every 24 hours
+  target: default

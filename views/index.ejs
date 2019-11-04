@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="<%- lang %>">
+
+  
+  <% include ./partials/head %>
+
+
+  <body>
+
+
+  <% include ./partials/navbar %>
+
+
+  <% if (!isDBLocked) { %>
+  <!-- Page Content -->
+  <div class="container pt-5">
+
+    <div class="row">
+      <div class="col-sm-8">
+        <h1 class="mt-4"><%= title %></h1>
+        <p><%- content_text.content1 %></p>
+        <p><%- content_text.content2 %></p>
+      </div>
+      
+    </div>
+      
+    <div class="container-fluid">
+      <div class="row my-5">
+        <h3>Deals du moments</h3>
+      </div>
+
+      <div class="row">
+        <div id="deals-carrousel" >
+            <% for(var i=0; i<deals.length; i++) { %>
+              <%- include('./partials/carrousel-item', {lang: lang, article : deals[i], active : ( i==1 ? "active" : "" ) }); %>
+            <% } %>
+        </div>
+      </div>
+
+ </div>
+ 
+  <% } else { %>
+      <div class="container pt-5">
+        <h2><%- db_locked %></h2>
+        <h4><%- db_locked2 %></h4>
+      </div>
+  <% } %>
+
+      
+</div>
+    <!-- Footer -->
+    <% include ./partials/footer %>
+
+
+
+
+
+  </body>
+
+</html>
